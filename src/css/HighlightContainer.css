@@ -1,0 +1,27 @@
+/* Source: https://github.com/allenai/allennlp-demo */
+
+.highlight-container {
+  line-height: 42px !important;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  white-space: pre;
+  cursor: default;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.navbar {
+  text-align: center;
+}
+
+.bottom-nav {
+  min-height: 80px;
+}
+
+/* Bottom Label Layout */
+
+/* .highlight-container.highlight-container--bottom-labels {
+  padding: 10px 1.125em;
+  align-items: flex-start;
+} */
