@@ -1,0 +1,15 @@
+{
+    "short_name": "linked-wikitext-2",
+    "name": "Resources for viewing / downloading the Linked Wikitext-2 dataset.",
+    "icons": [
+      {
+        "src": "favicon.ico",
+        "sizes": "128x128 64x64 48x48 32x32 16x16",
+        "type": "image/x-icon"
+      }
+    ],
+    "start_url": "./index.html",
+    "display": "standalone",
+    "theme_color": "#000000",
+    "background_color": "#ffffff"
+  }
