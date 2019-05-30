@@ -1,0 +1,45 @@
+{
+  "name": "linked-wikitext-2",
+  "homepage": "https://rloganiv.github.io/linked-wikitext-2",
+  "version": "0.0.0",
+  "description": "Resources for downloading / viewing the Linked Wikitext-2 dataset.",
+  "authors": [
+    {
+      "name": "Robert L. Logan IV",
+      "email": "rlogan@uci.edu"
+    }
+  ],
+  "license": "CC-BY-SA-3.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rloganiv/linked-wikitext-2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "dependencies": {
+    "@csstools/normalize.css": "^10.0.0",
+    "bootstrap": "^4.3.1",
+    "gh-pages": "^2.0.1",
+    "react": "^16.8.6",
+    "react-bootstrap": "^1.0.0-beta.8",
+    "react-dom": "^16.8.6",
+    "react-router-dom": "^5.0.0",
+    "react-scripts": "^3.0.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
