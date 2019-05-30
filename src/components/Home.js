@@ -1,6 +1,7 @@
 import React from 'react';
-// import Button from 'react-bootstrap/Button';
 import ButtonToolbar from 'react-bootstrap/ButtonToolbar';
+import Card from 'react-bootstrap/Card';
+import CardGroup from 'react-bootstrap/CardGroup';
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 import Jumbotron from 'react-bootstrap/Jumbotron';
@@ -9,6 +10,8 @@ import { Link } from 'react-router-dom';
 
 import '../css/Home.css';
 
+import uciLogo from '../assets/uci-nlp-logo.svg';
+import ai2Logo from '../assets/ai2-logo.svg';
 
 const bibtex = `@inproceedings{rlogan2019kglm,
     name = "Barack's Wife {H}illary: Using Knowledge Graphs for Fact-Aware Language Modeling",
@@ -24,6 +27,38 @@ const bibtex = `@inproceedings{rlogan2019kglm,
     publisher = "Association for Computational Linguistics",
 }`
 
+const description = `
+The Linked Wikitext-2 language modeling dataset contains over 2 million tokens from Wikipedia articles, along with annotations linking mentions to their corresponding entities and relations in Wikidata.
+It is designed to match as closely as possible the contents of the popular WikiText-2 dataset.
+`
+
+class Credits extends React.Component {
+    render() {
+        return (
+            <CardGroup>
+                <Card>
+                    <Card.Img variant="top" src={uciLogo}/>
+                    <Card.Body>
+                        <Card.Title>UCI NLP</Card.Title>
+                        <Card.Text>
+                            Description of UCI NLP.
+                        </Card.Text>
+
+                    </Card.Body>
+                </Card>
+                <Card>
+                    <Card.Img variant="top" src={ai2Logo}/>
+                    <Card.Body>
+                        <Card.Title>The Allen Institute for Artificial Intelligence</Card.Title>
+                        <Card.Text>
+                            Description of AI2.
+                        </Card.Text>
+                    </Card.Body>
+                </Card>
+            </CardGroup>
+        )
+    }
+}
 
 class Footer extends React.Component {
     render () {
@@ -51,12 +86,14 @@ class Home extends React.Component {
                                 Linked WikiText-2
                             </h1>
                             <p>
-                                A nice description of the Linked WikiText-2 dataset.
+                                {description}
+                                For more details please refer to our <a href="https://rloganiv.github.io/assets/projects/kglm.pdf">paper</a>.
                             </p>
                             <ButtonToolbar>
-                                <Link className="btn btn-primary btn-lg" to="/" variant="primary" size="lg">Download</Link>
-                                <Link className="btn btn-primary btn-lg" to="/explore" variant="primary" size="lg">Explore</Link>
+                                <a className="btn btn-primary btn-lg" href="https://rlogan.s3.us-east-2.amazonaws.com/linked-wikitext-2.zip">Download</a>
+                                <Link className="btn btn-primary btn-lg" to="/explore">Explore</Link>
                             </ButtonToolbar>
+                            {/* <Credits/> */}
                         </Container>
                     </Jumbotron>
                     <Container>

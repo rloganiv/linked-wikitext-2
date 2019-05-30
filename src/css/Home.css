@@ -5,3 +5,7 @@
 .col-md-4 {
     min-width:320px;
 }
+
+.logo {
+    background-size: 100px;
+}
