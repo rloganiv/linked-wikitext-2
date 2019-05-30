@@ -107,7 +107,7 @@ class Home extends React.Component {
                                     <a href="https://smerity.com">Stephen Merity</a> for sharing the scripts used to collect the Wikitext-2 dataset.
                                 </p>
                                 <p>
-                                    <a href="https://">Nitish Gupta</a> for modifying his <a href="https://github.com/nitishgupta/neural-el">neural-el</a> code to easily run on our data.
+                                    <a href="https://nitishgupta.github.io/">Nitish Gupta</a> for modifying his <a href="https://github.com/nitishgupta/neural-el">neural-el</a> code to easily run on our data.
                                 </p>
                                 <p>
                                     The numerous contributors that have made <a href="https://www.wikipedia.org">Wikipedia</a> and <a href="https://www.wikidata.org">Wikidata</a> such fantastic repositories of knowledge.
