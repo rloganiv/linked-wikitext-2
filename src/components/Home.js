@@ -57,7 +57,9 @@ class Home extends React.Component {
                             <p>
                                 <a href="https://">Nitish Gupta</a> for modifying his <a href="https://github.com/nitishgupta/neural-el">neural-el</a> code to easily run on our data.
                             </p>
-
+                            <p>
+                                The numerous contributors that have made <a href="https://www.wikipedia.org">Wikipedia</a> and <a href="https://www.wikidata.org">Wikidata</a> such fantastic repositories of knowledge.
+                            </p>
                         </Col>
                         <Col md='4'>
                             <h2>License</h2>

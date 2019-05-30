@@ -1,7 +1,7 @@
 import React from 'react';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { HashRouter as Router, Route } from 'react-router-dom';
 
 import Home from './components/Home';
 // import Explore from './components/Explore';
@@ -43,7 +43,7 @@ class Footer extends React.Component {
 
 
 const App = () => (
-    <Router>
+    <Router basename='/'>
         <div>
             {/* <Menu/> */}
             <main>
