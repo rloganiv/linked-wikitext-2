@@ -112,6 +112,9 @@ class Home extends React.Component {
                                 <p>
                                     The numerous contributors that have made <a href="https://www.wikipedia.org">Wikipedia</a> and <a href="https://www.wikidata.org">Wikidata</a> such fantastic repositories of knowledge.
                                 </p>
+                                <p>
+                                    The developers of <a href="https://allennlp.org">AllenNLP</a> whose demo code we repurposed to allow users to explore our dataset.
+                                </p>
                             </Col>
                             <Col md={4}>
                                 <h2>Citation</h2>
