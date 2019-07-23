@@ -12,6 +12,7 @@ import '../css/Home.css';
 
 import uciLogo from '../assets/uci-nlp-logo.svg';
 import ai2Logo from '../assets/ai2-logo.svg';
+import dataset from '../assets/linked-wikitext-2.zip';
 
 const bibtex = `@inproceedings{rlogan2019kglm,
     name = "Barack's Wife {H}illary: Using Knowledge Graphs for Fact-Aware Language Modeling",
@@ -90,7 +91,7 @@ class Home extends React.Component {
                                 For more details please refer to our <a href="https://rloganiv.github.io/assets/projects/kglm.pdf">paper</a>.
                             </p>
                             <ButtonToolbar>
-                                <a className="btn btn-primary btn-lg" href="https://rlogan.s3.us-east-2.amazonaws.com/linked-wikitext-2.zip">Download</a>
+                                <a className="btn btn-primary btn-lg" href={dataset}>Download</a>
                                 <Link className="btn btn-primary btn-lg" to="/explore">Explore</Link>
                             </ButtonToolbar>
                             {/* <Credits/> */}
