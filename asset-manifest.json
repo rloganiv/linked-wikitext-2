@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/linked-wikitext-2/static/css/main.4d631477.chunk.css",
-    "main.js": "/linked-wikitext-2/static/js/main.29dba177.chunk.js",
-    "main.js.map": "/linked-wikitext-2/static/js/main.29dba177.chunk.js.map",
+    "main.css": "/linked-wikitext-2/static/css/main.78576a2d.chunk.css",
+    "main.js": "/linked-wikitext-2/static/js/main.52123025.chunk.js",
+    "main.js.map": "/linked-wikitext-2/static/js/main.52123025.chunk.js.map",
     "runtime~main.js": "/linked-wikitext-2/static/js/runtime~main.43b40afa.js",
     "runtime~main.js.map": "/linked-wikitext-2/static/js/runtime~main.43b40afa.js.map",
-    "static/js/2.3b332ad4.chunk.js": "/linked-wikitext-2/static/js/2.3b332ad4.chunk.js",
-    "static/js/2.3b332ad4.chunk.js.map": "/linked-wikitext-2/static/js/2.3b332ad4.chunk.js.map",
+    "static/js/2.cf3a9d12.chunk.js": "/linked-wikitext-2/static/js/2.cf3a9d12.chunk.js",
+    "static/js/2.cf3a9d12.chunk.js.map": "/linked-wikitext-2/static/js/2.cf3a9d12.chunk.js.map",
     "index.html": "/linked-wikitext-2/index.html",
-    "precache-manifest.eda8973507ebacbe464e715789f856b9.js": "/linked-wikitext-2/precache-manifest.eda8973507ebacbe464e715789f856b9.js",
+    "precache-manifest.1fb2ab514d036dafdddfc602adbf3c07.js": "/linked-wikitext-2/precache-manifest.1fb2ab514d036dafdddfc602adbf3c07.js",
     "service-worker.js": "/linked-wikitext-2/service-worker.js",
-    "static/css/main.4d631477.chunk.css.map": "/linked-wikitext-2/static/css/main.4d631477.chunk.css.map",
+    "static/css/main.78576a2d.chunk.css.map": "/linked-wikitext-2/static/css/main.78576a2d.chunk.css.map",
     "static/media/ai2-logo.svg": "/linked-wikitext-2/static/media/ai2-logo.bc8385ee.svg",
+    "static/media/linked-wikitext-2.zip": "/linked-wikitext-2/static/media/linked-wikitext-2.a044f78b.zip",
     "static/media/uci-nlp-logo.svg": "/linked-wikitext-2/static/media/uci-nlp-logo.1b75c2c9.svg"
   }
 }
