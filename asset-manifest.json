@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/linked-wikitext-2/static/css/main.78576a2d.chunk.css",
-    "main.js": "/linked-wikitext-2/static/js/main.52123025.chunk.js",
-    "main.js.map": "/linked-wikitext-2/static/js/main.52123025.chunk.js.map",
+    "main.js": "/linked-wikitext-2/static/js/main.3a367363.chunk.js",
+    "main.js.map": "/linked-wikitext-2/static/js/main.3a367363.chunk.js.map",
     "runtime~main.js": "/linked-wikitext-2/static/js/runtime~main.43b40afa.js",
     "runtime~main.js.map": "/linked-wikitext-2/static/js/runtime~main.43b40afa.js.map",
     "static/js/2.cf3a9d12.chunk.js": "/linked-wikitext-2/static/js/2.cf3a9d12.chunk.js",
     "static/js/2.cf3a9d12.chunk.js.map": "/linked-wikitext-2/static/js/2.cf3a9d12.chunk.js.map",
     "index.html": "/linked-wikitext-2/index.html",
-    "precache-manifest.1fb2ab514d036dafdddfc602adbf3c07.js": "/linked-wikitext-2/precache-manifest.1fb2ab514d036dafdddfc602adbf3c07.js",
+    "precache-manifest.1b293088de595918afffa4746bc44ba4.js": "/linked-wikitext-2/precache-manifest.1b293088de595918afffa4746bc44ba4.js",
     "service-worker.js": "/linked-wikitext-2/service-worker.js",
     "static/css/main.78576a2d.chunk.css.map": "/linked-wikitext-2/static/css/main.78576a2d.chunk.css.map",
     "static/media/ai2-logo.svg": "/linked-wikitext-2/static/media/ai2-logo.bc8385ee.svg",
-    "static/media/linked-wikitext-2.zip": "/linked-wikitext-2/static/media/linked-wikitext-2.a044f78b.zip",
+    "static/media/linked-wikitext-2.zip": "/linked-wikitext-2/static/media/linked-wikitext-2.142e2e52.zip",
     "static/media/uci-nlp-logo.svg": "/linked-wikitext-2/static/media/uci-nlp-logo.1b75c2c9.svg"
   }
 }
